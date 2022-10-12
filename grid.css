@@ -1,0 +1,749 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*LETRA A*/
+
+.quest1_a {
+  display: grid;
+  grid-template-columns: 50px 50px 50px 50px;
+  grid-template-rows: 100px 100px;
+  justify-content: center;
+  column-gap: 1px;
+}
+
+.a {
+  grid-column: 3;
+  grid-row: 1;
+  background-color: gray;
+}
+.b {
+  grid-column: 4;
+  grid-row: 1;
+  background-color: gray;
+}
+.c {
+  grid-column: 2;
+  grid-row: 1;
+}
+.d {
+  grid-column: 1;
+  grid-row: 2;
+  background-color: gray;
+}
+.e {
+  grid-column: 2;
+  grid-row: 2;
+  background-color: gray;
+}
+.f {
+  grid-column: 4;
+  grid-row: 2;
+  background-color: rgb(22, 160, 214);
+  color: white;
+}
+.g {
+  grid-column: 3;
+  grid-row: 2;
+  background-color: gray;
+}
+.h {
+  grid-column: 1;
+  grid-row: 1;
+  background-color: rgb(22, 160, 214);
+  color: white;
+}
+
+/*LETRA B*/
+
+.quest1_b {
+  display: grid;
+  grid-template-columns: 50px 50px 50px 50px;
+  grid-template-rows: 50px 50px 50px;
+  justify-content: center;
+  column-gap: 1px;
+  margin-top: 50px;
+}
+
+.quest1_b .a {
+  grid-column: 4;
+  grid-row: 1 / span 2;
+  background-color: gray;
+}
+.quest1_b .b {
+  grid-column: 2;
+  grid-row: 3;
+  background-color: gray;
+}
+.quest1_b .c {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.quest1_b .d {
+  grid-column: 3;
+  grid-row: 3;
+  background-color: gray;
+}
+.quest1_b .e {
+  grid-column: 4;
+  grid-row: 3;
+  background-color: gray;
+}
+.quest1_b .f {
+  grid-column: 1;
+  grid-row: 2 / span 3;
+  background-color: rgb(22, 160, 214);
+  color: white;
+}
+
+.quest1_b .h {
+  grid-column: 1;
+  grid-row: 1;
+  background-color: rgb(22, 160, 214);
+  color: white;
+}
+
+/*LETRA C*/
+
+.quest1_c {
+  display: grid;
+  grid-template-columns: 50px 50px 50px 50px;
+  grid-template-rows: 50px 50px 50px;
+  justify-content: center;
+  column-gap: 1px;
+  margin-top: 50px;
+}
+
+.quest1_c .a {
+  grid-column: 4;
+  grid-row: 1 / span 2;
+  background-color: gray;
+}
+.quest1_c .b {
+  grid-column: 1;
+  grid-row: 2 / span 3;
+  background-color: gray;
+}
+.quest1_c .c {
+  grid-column: 2 / span 3;
+  grid-row: 1 / span 2;
+}
+.quest1_c .d {
+  grid-column: 2;
+  grid-row: 3;
+  background-color: gray;
+}
+.quest1_c .e {
+  grid-column: 3;
+  grid-row: 3;
+  background-color: gray;
+}
+.quest1_c .f {
+  grid-column: 4;
+  grid-row: 3;
+  background-color: rgb(22, 160, 214);
+  color: white;
+}
+
+.quest1_c .h {
+  grid-column: 1;
+  grid-row: 1;
+  background-color: rgb(22, 160, 214);
+  color: white;
+}
+
+/*LETRA D*/
+
+.quest1_d {
+  display: grid;
+  grid-template-columns: 50px 50px 50px 50px;
+  grid-template-rows: 50px 50px 25px 15px;
+  justify-content: center;
+  column-gap: 0px;
+  margin-top: 50px;
+}
+
+.quest1_d .a {
+  grid-column: 4;
+  grid-row: 2 / span 3;
+  background-color: gray;
+}
+.quest1_d .b {
+  grid-column: 1;
+  grid-row: 2 / span 4;
+  background-color: gray;
+}
+.quest1_d .c {
+  grid-column: 2 / span 3;
+  grid-row: 2 / span 3;
+}
+
+.quest1_d .f {
+  grid-column: 2 / span 4;
+  grid-row: 4;
+  background-color: rgb(22, 160, 214);
+  color: white;
+}
+
+.quest1_d .h {
+  grid-column: 1 / span 4;
+  grid-row: 1;
+  background-color: rgb(22, 160, 214);
+  color: white;
+}
+
+/*LETRA E*/
+
+.quest1_e {
+  display: grid;
+  grid-template-columns: 50px 50px 50px 50px;
+  grid-template-rows: 50px 50px 50px;
+  justify-content: center;
+  column-gap: 0px;
+  margin-top: 50px;
+}
+
+.quest1_e .a {
+  grid-column: 3;
+  grid-row: 2;
+  background-color: gray;
+}
+.quest1_e .b {
+  grid-column: 1;
+  grid-row: 3;
+  background-color: gray;
+}
+.quest1_e .c {
+  grid-column: 1 / span 2;
+  grid-row: 2;
+}
+
+.quest1_e .d {
+  grid-column: 2 / span 3;
+  grid-row: 3;
+  background-color: gray;
+}
+.quest1_e .f {
+  grid-column: 4;
+  grid-row: 2 / span 3;
+  background-color: rgb(22, 160, 214);
+  color: white;
+}
+
+.quest1_e .h {
+  grid-column: 1 / span 4;
+  grid-row: 1;
+  background-color: rgb(22, 160, 214);
+  color: white;
+}
+
+/*LETRA G*/
+
+.quest1_g {
+  display: grid;
+  grid-template-columns: 50px 50px 50px 50px;
+  grid-template-rows: 50px 50px 50px 50px;
+  justify-content: center;
+  column-gap: 0px;
+  margin-top: 50px;
+}
+
+.quest1_g .a {
+  grid-column: 2;
+  grid-row: 3;
+  background-color: gray;
+}
+.quest1_g .b {
+  grid-column: 3;
+  grid-row: 3;
+  background-color: gray;
+}
+.quest1_g .c {
+  grid-column: 1 / span 4;
+  grid-row: 1 / span 2;
+}
+
+.quest1_g .d {
+  grid-column: 4;
+  grid-row: 3;
+  background-color: gray;
+}
+.quest1_g .e {
+  grid-column: 2;
+  grid-row: 4;
+  background-color: gray;
+}
+.quest1_g .f {
+  grid-column: 4;
+  grid-row: 4;
+  background-color: rgb(22, 160, 214);
+  color: white;
+}
+
+.quest1_g .g {
+  grid-column: 3;
+  grid-row: 4;
+  background-color: gray;
+}
+
+.quest1_g .h {
+  grid-column: 1;
+  grid-row: 3 / span 4;
+  background-color: rgb(22, 160, 214);
+  color: white;
+}
+
+/*LETRA H*/
+
+.quest1_h {
+  display: grid;
+  grid-template-rows: 25px 25px 50px 50px;
+  grid-template-columns: 25px 25px 25px 25px 25px 25px 25px;
+  justify-content: center;
+  column-gap: 0px;
+  margin-top: 50px;
+}
+
+.quest1_h .a {
+  grid-column: 6;
+  grid-row: 3 / span 4;
+  background-color: gray;
+}
+.quest1_h .b {
+  grid-column: 7;
+  grid-row: 3 / span 4;
+  background-color: gray;
+}
+.quest1_h .c {
+  grid-column: 1 / span 4;
+  grid-row: 1 / span 2;
+}
+
+.quest1_h .d {
+  grid-column: 2;
+  grid-row: 3;
+  background-color: gray;
+}
+.quest1_h .e {
+  grid-column: 4;
+  grid-row: 3;
+  background-color: gray;
+}
+.quest1_h .f {
+  grid-column: 6 / span 7;
+  grid-row: 2;
+  background-color: rgb(22, 160, 214);
+  color: white;
+}
+
+.quest1_h .h {
+  grid-column: 6 / span 7;
+  grid-row: 1;
+  background-color: rgb(22, 160, 214);
+  color: white;
+}
+
+/*LETRA I*/
+
+.quest1_i {
+  display: grid;
+  grid-template-rows: 25px 25px 25px 50px 25px;
+  grid-template-columns: 100px 25px 25px 25px 25px 25px;
+  justify-content: center;
+  column-gap: 0px;
+  margin-top: 50px;
+}
+
+.quest1_i .a {
+  grid-column: 2 / span 4;
+  grid-row: 3 / span 4;
+  background-color: gray;
+}
+.quest1_i .b {
+  grid-column: 4 / span 6;
+  grid-row: 4;
+  background-color: gray;
+}
+.quest1_i .c {
+  grid-column: 1 / span 2;
+  grid-row: 2 / span 4;
+}
+
+.quest1_i .f {
+  grid-column: 1 / span 6;
+  grid-row: 5;
+  background-color: rgb(22, 160, 214);
+  color: white;
+}
+
+.quest1_i .h {
+  grid-column: 1 / span 2;
+  grid-row: 1;
+  background-color: rgb(22, 160, 214);
+  color: white;
+}
+
+/*LETRA J*/
+
+.quest1_j {
+  display: grid;
+  grid-template-columns: 25px 25px 200px 25px 25px;
+  grid-template-rows: 30px 15px 15px 15px 15px 15px 15px 30px;
+  justify-content: center;
+  column-gap: 0px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.quest1_j .a {
+  grid-column: 2;
+  grid-row: 4 / span 5;
+  background-color: gray;
+}
+.quest1_j .b {
+  grid-column: 4;
+  grid-row: 2 / span 3;
+  background-color: gray;
+}
+.quest1_j .c {
+  grid-column: 3;
+  grid-row: 2 / span 7;
+}
+.quest1_j .d {
+  grid-column: 1;
+  grid-row: 5 / span 6;
+  background-color: gray;
+}
+
+.quest1_j .e {
+  grid-column: 4;
+  grid-row: 4 / span 5;
+  background-color: gray;
+}
+
+.quest1_j .f {
+  grid-column: 3;
+  grid-row: 8;
+  background-color: rgb(22, 160, 214);
+  color: white;
+}
+
+.quest1_j .g {
+  grid-column: 5;
+  grid-row: 3 / span 4;
+  background-color: gray;
+}
+
+.quest1_j .h {
+  grid-column: 3;
+  grid-row: 1;
+  background-color: rgb(22, 160, 214);
+  color: white;
+}
+
+.quest1_j .i {
+  grid-column: 2;
+  grid-row: 6;
+  background-color: gray;
+}
+
+/*letra L*/
+
+.quest1_l {
+  display: grid;
+  grid-template-columns: 25px 100px 100px;
+  grid-template-rows: 50px 50px 50px 50px;
+  justify-content: center;
+  column-gap: 0px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.quest1_l .a {
+  grid-column: 3;
+  grid-row: 1;
+  background-color: gray;
+}
+.quest1_l .b {
+  grid-column: 3;
+  grid-row: 2;
+  background-color: gray;
+}
+.quest1_l .c {
+  grid-column: 2;
+  grid-row: 1 / span 4;
+}
+.quest1_l .d {
+  grid-column: 3;
+  grid-row: 3;
+  background-color: gray;
+}
+
+.quest1_l .e {
+  grid-column: 3;
+  grid-row: 4;
+  background-color: gray;
+}
+
+.quest1_l .h {
+  grid-column: 1;
+  grid-row: 1 / span 4;
+  background-color: rgb(22, 160, 214);
+  color: white;
+}
+
+/*letra N*/
+
+.quest1_n {
+  display: grid;
+  grid-template-columns: 25px 50px 100px;
+  grid-template-rows: 50px 50px;
+  justify-content: center;
+  column-gap: 0px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.quest1_n .a {
+  grid-column: 2;
+  grid-row: 1;
+  background-color: gray;
+}
+.quest1_n .b {
+  grid-column: 2;
+  grid-row: 2;
+  background-color: gray;
+}
+.quest1_n .c {
+  grid-column: 3;
+  grid-row: 1 / span 2;
+}
+
+.quest1_n .h {
+  grid-column: 1;
+  grid-row: 1 / span 2;
+  background-color: rgb(22, 160, 214);
+  color: white;
+}
+
+/*2 Questão - letra a*/
+
+.menu {
+  display: grid;
+  grid-template-columns: 500px 200px 200px 200px 200px;
+  grid-template-rows: 50px;
+  column-gap: 0px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  background-color: gray;
+}
+
+.marca {
+  grid-column: 1;
+  grid-row: 1;
+  color: white;
+  text-decoration: none;
+}
+
+.home {
+  grid-column: 2;
+  grid-row: 1;
+  color: white;
+  text-decoration: none;
+}
+.quem_somos {
+  grid-column: 3;
+  grid-row: 1;
+  color: white;
+  text-decoration: none;
+}
+.servicos {
+  grid-column: 4;
+  grid-row: 1;
+  color: white;
+  text-decoration: none;
+}
+.contato {
+  grid-column: 5;
+  grid-row: 1;
+  color: white;
+  text-decoration: none;
+}
+
+.postagem {
+  display: grid;
+  grid-template-columns: 125px 125px 25px 125px 125px 25px 250px;
+  grid-template-rows: 150px 100px 100px 25px 100px 25px 100px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  column-gap: 5px;
+}
+
+.p1 {
+  width: 250px;
+  height: 150px;
+  grid-column: 1 / span 6;
+  grid-row: 1;
+  background-color: gray;
+}
+
+.e1 {
+  grid-column: 3;
+  grid-row: 1;
+}
+
+.p2 {
+  width: 250px;
+  height: 150px;
+  grid-column: 4 / span 5;
+  grid-row: 1;
+  background-color: gray;
+}
+
+.e2 {
+  grid-column: 6;
+  grid-row: 1;
+}
+
+.p3 {
+  width: 250px;
+  height: 150px;
+  grid-column: 7;
+  grid-row: 1;
+  background-color: gray;
+}
+
+.t1 {
+  grid-column: 1;
+  grid-row: 2;
+  font-weight: 700;
+  align-self: start;
+}
+
+.t2 {
+  grid-column: 4;
+  grid-row: 2;
+  font-weight: 700;
+  align-self: start;
+}
+
+.t3 {
+  grid-column: 7;
+  grid-row: 2;
+  font-weight: 700;
+  align-self: start;
+}
+
+.i1 {
+  width: 125px;
+  height: 75px;
+  grid-column: 1;
+  grid-row: 3;
+  background-color: gray;
+}
+.i2 {
+  width: 125px;
+  height: 75px;
+  grid-column: 4;
+  grid-row: 3;
+  background-color: gray;
+}
+.i3 {
+  width: 125px;
+  height: 75px;
+  grid-column: 1;
+  grid-row: 5;
+  background-color: gray;
+}
+.i4 {
+  width: 125px;
+  height: 75px;
+  grid-column: 4;
+  grid-row: 5;
+  background-color: gray;
+}
+.i5 {
+  width: 125px;
+  height: 75px;
+  grid-column: 1;
+  grid-row: 7;
+  background-color: gray;
+}
+.i6 {
+  width: 125px;
+  height: 75px;
+  grid-column: 4;
+  grid-row: 7;
+  background-color: gray;
+}
+
+.t4 {
+  grid-column: 2;
+  grid-row: 3;
+  font-weight: 700;
+}
+.t5 {
+  grid-column: 5;
+  grid-row: 3;
+  font-weight: 700;
+}
+.t6 {
+  grid-column: 2;
+  grid-row: 5;
+  font-weight: 700;
+}
+.t7 {
+  grid-column: 5;
+  grid-row: 5;
+  font-weight: 700;
+}
+.t8 {
+  grid-column: 2;
+  grid-row: 7;
+  font-weight: 700;
+}
+.t9 {
+  grid-column: 5;
+  grid-row: 7;
+  font-weight: 700;
+}
+.t10 {
+  grid-column: 7;
+  grid-row: 7;
+  font-weight: 700;
+  align-self: flex-end;
+  justify-self: center;
+}
+.postagem .b {
+  width: 250px;
+  height: 300px;
+  grid-column: 7;
+  grid-row: 3 / span 6;
+  border-style: solid;
+  border-width: 2px;
+  background-color: white;
+  align-self: center;
+}
+
+.rodape {
+  display: grid;
+  grid-template-columns: 500px;
+  grid-template-rows: 50px;
+  background-color: gray;
+  align-items: center;
+}
+
+.rodape p {
+  grid-column: 1;
+  grid-row: 1;
+  margin-left: 60px;
+}
+
+/*2 Questão - letra b*/

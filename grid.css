@@ -1,6 +1,8 @@
 * {
   margin: 0;
   padding: 0;
+  text-decoration: none;
+  list-style: none;
 }
 
 /*LETRA A*/
@@ -529,50 +531,94 @@
   color: white;
 }
 
-/*2 Questão - letra a*/
+/*2º Questão*/
 
 .menu {
+  z-index: 1;
+  width: 100%;
+  background-color: rgb(0, 0, 0, 0.404);
+}
+
+.conteiner {
+  width: 1280px;
+  margin: auto;
+}
+
+.nav_checkbox {
   display: grid;
-  grid-template-columns: 500px 200px 200px 200px 200px;
-  grid-template-rows: 50px;
-  column-gap: 0px;
-  justify-content: center;
+  grid-template-columns: 1fr 1fr;
   align-items: center;
-  margin-top: 50px;
-  margin-bottom: 100px;
-  background-color: gray;
 }
 
-.marca {
-  grid-column: 1;
-  grid-row: 1;
-  color: white;
+.logo {
   text-decoration: none;
+  color: white;
+  padding-left: 10px;
 }
 
-.home {
-  grid-column: 2;
-  grid-row: 1;
-  color: white;
-  text-decoration: none;
+.tab-nav {
+  outline: none;
+  display: none;
 }
-.quem_somos {
+.label {
+  display: none;
+  color: white;
+}
+
+.burguer {
+  width: 35px;
+  height: 5px;
+  background-color: white;
+  margin-top: 5px;
+}
+
+.content_nav {
   grid-column: 3;
-  grid-row: 1;
-  color: white;
-  text-decoration: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
-.servicos {
-  grid-column: 4;
-  grid-row: 1;
-  color: white;
-  text-decoration: none;
+
+.content_nav li {
+  display: inline-block;
+  padding-right: 10px;
 }
-.contato {
-  grid-column: 5;
-  grid-row: 1;
-  color: white;
+
+.content_nav li a {
   text-decoration: none;
+  color: white;
+  position: relative;
+}
+
+@media screen and (max-width: 1280px) {
+  .conteiner {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 770px) {
+  .label {
+    display: grid;
+    cursor: pointer;
+    grid-column: 3;
+    padding-right: 10px;
+  }
+  .content_nav {
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-column: 1/4;
+    text-align: center;
+    max-height: 0;
+    overflow: hidden;
+    transition: all ease-in-out 0.6s;
+  }
+}
+
+.nav_checkbox input:checked ~ .content_nav {
+  max-height: 500px;
+}
+
+.content_nav li {
+  padding: 15px 0px;
 }
 
 .postagem {
@@ -745,5 +791,3 @@
   grid-row: 1;
   margin-left: 60px;
 }
-
-/*2 Questão - letra b*/
